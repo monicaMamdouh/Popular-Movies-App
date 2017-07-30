@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_popular"
+            android:title="@string/popular" />
+        <item
+            android:id="@+id/nav_top_rated"
+            android:title="@string/topRated" />
+        <item
+            android:id="@+id/nav_upcoming"
+            android:title="@string/upcoming" />
+        <item
+            android:id="@+id/nav_now_playing"
+            android:title="@string/nowPlaying" />
+
+    </group>
+
+    <item android:title="My Movies">
+        <menu>
+            <item
+                android:id="@+id/nav_favourite"
+                android:title="Favourite Movies" />
+
+        </menu>
+    </item>
+
+</menu>
